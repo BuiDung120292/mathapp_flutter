@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mathapp/pages/home_page.dart';
+import 'package:mathapp/pages/quiz_demo_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HomePage(title: "Math App"),
+      home: const QuizDemoPage(),
       debugShowCheckedModeBanner: false,
     );
   }
